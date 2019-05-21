@@ -1,0 +1,18 @@
+{
+  "name": "myexpressapp",
+  "version": "1.0.0",
+  "description": "express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Jason Wu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.10",
+    "nodemon": "^1.19.0"
+  }
+}
